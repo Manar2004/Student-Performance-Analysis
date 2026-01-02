@@ -6,7 +6,7 @@ public class StudentPerformanceAnalysis {
 
         int[] moduleMarks = {72, 45, 60, 38, 81};
         // Node 4: Loop through modules
-        for (int i = 0; i < totalModules; i++) {
+        for (int i = 0; i < totalModules - 1; i++)  {
             // Node 5: Read module mark
             int mark = moduleMarks[i];
             // Node 6: Decision
