@@ -10,10 +10,12 @@ public class StudentPerformanceAnalysis {
             // Node 5: Read module mark
             int mark = moduleMarks[i];
             // Node 6: Decision
-            if (mark < 50) {
-                // Node 7: Increment weak counter
-                weakCount++;
-            }
+            if (mark < 40) {
+    weakCount++;
+} else {
+    System.out.println("Performance is satisfactory");
+}
+
             // Node 8: Else branch exists logically (satisfactory case)
         }
         // Node 10: End - final output
